@@ -9,7 +9,7 @@ const detailsTemplate = (team, user, allMembers, allPending, sendRequest, remove
 <article class="layout">
     <img src=${team.logoUrl} class="team-logo left-col">
     <div class="tm-preview">
-        <h2>${team.name}t</h2>
+        <h2>${team.name}</h2>
         <p>${team.description}</p>
         <span class="details">${until(getMembersCount(team.objectId))}</span>
         <div>
