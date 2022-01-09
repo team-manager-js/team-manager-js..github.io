@@ -25,7 +25,7 @@ page('/create', createPage)
 page('/my-teams', myTeamsPage)
 page('/browse-teams', browsePage)
 
-// page.redirect('/')
+
 updateUserNav()
 page.start()
 
@@ -41,7 +41,7 @@ function updateUserNav() {
     const userData = getUserData()
     if (userData !== null) {
         document.querySelector('.user').style.display = 'inline-block'
-        // document.querySelector('.user span').textContent = `Welcome, ${userData.email}`
+        
         document.querySelector('.guest').style.display = 'none'
     } else {
         document.querySelector('.user').style.display = 'none'
@@ -49,7 +49,6 @@ function updateUserNav() {
     }
 }
 
-// pretty much stays the same but double check the redirect
 async function logingOut() {
     await logout()
     updateUserNav()
