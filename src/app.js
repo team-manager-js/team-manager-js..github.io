@@ -9,11 +9,6 @@ import { loginPage } from './views/login.js'
 import { myTeamsPage } from './views/my-teams.js'
 import { registerPage } from './views/register.js'
 import { logout } from './api/data.js'
-import * as api from './api/data.js'
-
-window.api = api
-
-
 
 
 const root = document.querySelector('main')
@@ -30,7 +25,7 @@ page('/create', createPage)
 page('/my-teams', myTeamsPage)
 page('/browse-teams', browsePage)
 
-page.redirect('/')
+// page.redirect('/')
 updateUserNav()
 page.start()
 

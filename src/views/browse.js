@@ -3,7 +3,6 @@ import {html, until} from '../lib.js'
 import { getUserData } from '../util.js'
 
 
-
 const catalogTemplate = (teams, userData) => html`
   <section id="browse">
 
