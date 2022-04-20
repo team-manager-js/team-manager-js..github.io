@@ -1,6 +1,8 @@
 # Team Manager Project
 
-Small project using JS, HTML, CSS and Back4App for backend service. Page library is used for routing and lit-html for templating.
+## The project is deployed on GitHub Pages , Back4App is used for backend service - https://team-manager-js.github.io/
+
+Small project using JS, HTML and CSS. Page library is used for routing and Lit-Html for templating.
 Higher complexity compared to my other similar project.
 
 The app supports functionality for 5 different user types:
